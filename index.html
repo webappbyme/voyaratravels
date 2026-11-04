@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voyara Travels | Discover Beyond Boundaries</title>
+  <meta name="description" content="Voyara Travels – Premium international travel agency offering curated holiday packages, guided tours, honeymoon specials and personalised travel planning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=80&h=80&fit=crop" alt="Voyara Travels logo" />
+        <span>Voyara <em>Travels</em></span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="destinations.html#services">Services</a></li>
+          <li><a href="calculator.html">Trip Calculator</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="appointment.html" class="btn btn-cta nav-btn">Plan Your Trip</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SLIDER -->
+  <section class="hero">
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1600&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1600&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=1600&q=80')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title fade-up">Discover Beyond Boundaries.</h1>
+      <p class="hero-subtitle fade-up delay-1">Explore extraordinary destinations and create unforgettable travel experiences with Voyara Travels.</p>
+      <div class="hero-buttons fade-up delay-2">
+        <a href="destinations.html" class="btn btn-primary">Explore Destinations</a>
+        <a href="appointment.html" class="btn btn-cta">Plan Your Trip</a>
+      </div>
+    </div>
+    <div class="slider-dots" id="sliderDots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </section>
+
+  <!-- PROMO STRIP -->
+  <section class="promo-strip reveal">
+    <div class="container promo-inner">
+      <p>✈️ Limited Offer — Save up to <strong>25%</strong> on selected Maldives &amp; Bali holiday packages this season!</p>
+      <a href="destinations.html" class="btn btn-small btn-cta">View Offers</a>
+    </div>
+  </section>
+
+  <!-- POPULAR DESTINATIONS -->
+  <section class="section reveal" id="popular">
+    <div class="container">
+      <div class="section-head">
+        <h2>Popular Destinations</h2>
+        <p>Handpicked destinations our travellers love the most.</p>
+      </div>
+      <div class="card-grid">
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80" alt="Maldives beach" /></div>
+          <div class="card-body">
+            <h3>Maldives</h3>
+            <p>Turquoise lagoons, overwater villas and pure island serenity.</p>
+            <div class="card-foot"><span class="price">From $1,899</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=600&q=80" alt="Switzerland mountains" /></div>
+          <div class="card-body">
+            <h3>Switzerland</h3>
+            <p>Alpine peaks, scenic rail journeys and charming lake towns.</p>
+            <div class="card-foot"><span class="price">From $2,499</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" alt="Bali temple" /></div>
+          <div class="card-body">
+            <h3>Bali</h3>
+            <p>Tropical temples, rice terraces and vibrant island culture.</p>
+            <div class="card-foot"><span class="price">From $1,299</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80" alt="Paris Eiffel Tower" /></div>
+          <div class="card-body">
+            <h3>Paris</h3>
+            <p>The city of light, art, cafés and timeless romance.</p>
+            <div class="card-foot"><span class="price">From $1,799</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80" alt="Dubai skyline" /></div>
+          <div class="card-body">
+            <h3>Dubai</h3>
+            <p>Futuristic skylines, desert safaris and luxury shopping.</p>
+            <div class="card-foot"><span class="price">From $1,199</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+        <article class="dest-card">
+          <div class="card-img"><img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600&q=80" alt="Singapore skyline" /></div>
+          <div class="card-body">
+            <h3>Singapore</h3>
+            <p>Garden city wonders, night safaris and iconic Marina Bay.</p>
+            <div class="card-foot"><span class="price">From $1,099</span><a href="destinations.html" class="btn btn-small btn-primary">Explore More</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section section-plum reveal">
+    <div class="container">
+      <div class="section-head light">
+        <h2>Why Choose Voyara Travels?</h2>
+        <p>Premium travel experiences designed around you.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧭</div>
+          <h3>Personalised Travel Planning</h3>
+          <p>Every itinerary is tailored to your interests, pace and budget.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💎</div>
+          <h3>Affordable Holiday Packages</h3>
+          <p>Luxury-feel holidays at honest, transparent prices.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Experienced Travel Consultants</h3>
+          <p>Seasoned experts who have travelled the destinations they recommend.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤝</div>
+          <h3>Dedicated Customer Support</h3>
+          <p>Round-the-clock assistance before, during and after your trip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PACKAGES -->
+  <section class="section reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured Holiday Packages</h2>
+        <p>Curated journeys with everything taken care of.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=600&q=80" alt="Maldives overwater villa" />
+          <div class="package-body">
+            <span class="badge">Best Seller</span>
+            <h3>Maldives Escape</h3>
+            <p class="pkg-meta">7 Days · 6 Nights</p>
+            <p>Overwater villa, snorkelling, sunset cruise and all transfers included.</p>
+            <div class="card-foot"><span class="price">$2,899 / person</span><a href="contact.html" class="btn btn-small btn-primary">View Package</a></div>
+          </div>
+        </article>
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80" alt="Swiss Alps" />
+          <div class="package-body">
+            <span class="badge">Family Favourite</span>
+            <h3>Swiss Alpine Journey</h3>
+            <p class="pkg-meta">8 Days · 7 Nights</p>
+            <p>Glacier Express, Jungfrau, Lucerne and Interlaken with scenic rail passes.</p>
+            <div class="card-foot"><span class="price">$3,499 / person</span><a href="contact.html" class="btn btn-small btn-primary">View Package</a></div>
+          </div>
+        </article>
+        <article class="package-card">
+          <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" alt="Bali rice terrace" />
+          <div class="package-body">
+            <span class="badge">Honeymoon</span>
+            <h3>Bali Romance Retreat</h3>
+            <p class="pkg-meta">6 Days · 5 Nights</p>
+            <p>Private pool villa, couples spa, Ubud tour and candlelit beach dinner.</p>
+            <div class="card-foot"><span class="price">$1,999 / person</span><a href="contact.html" class="btn btn-small btn-primary">View Package</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section-blush reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>How It Works</h2>
+        <p>Your dream trip in four simple steps.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><span class="step-num">1</span><h3>Explore Destinations</h3><p>Browse our curated collection of worldwide destinations.</p></div>
+        <div class="step"><span class="step-num">2</span><h3>Choose Your Package</h3><p>Pick a package that matches your style and budget.</p></div>
+        <div class="step"><span class="step-num">3</span><h3>Calculate Your Budget</h3><p>Use our trip calculator for a quick cost estimate.</p></div>
+        <div class="step"><span class="step-num">4</span><h3>Contact Our Consultants</h3><p>Book an appointment and let us handle the details.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>What Our Travellers Say</h2>
+        <p>Real experiences from real Voyara travellers.</p>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial">
+          <p>"Voyara planned our Maldives honeymoon perfectly. Every detail was seamless — we just relaxed and enjoyed."</p>
+          <footer><strong>Aarav &amp; Meera</strong><span>Maldives Honeymoon</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"The Switzerland itinerary was outstanding. The scenic train bookings and hotels exceeded our expectations."</p>
+          <footer><strong>Rohan Kapoor</strong><span>Swiss Alpine Journey</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Great value for a Bali family trip. The consultants were responsive and handled every change gracefully."</p>
+          <footer><strong>Priya Nair</strong><span>Bali Family Holiday</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter reveal">
+    <div class="container newsletter-inner">
+      <div>
+        <h2>Get Travel Inspiration in Your Inbox</h2>
+        <p>Subscribe for exclusive offers, new destinations and travel tips.</p>
+      </div>
+      <form id="newsletterForm" class="newsletter-form" novalidate>
+        <label class="sr-only" for="newsletterEmail">Email address</label>
+        <input type="email" id="newsletterEmail" name="email" placeholder="Enter your email address" required />
+        <button type="submit" class="btn btn-cta">Subscribe</button>
+        <p class="form-msg" id="newsletterMsg" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo footer-logo">
+          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=60&h=60&fit=crop" alt="Voyara Travels logo" />
+          <span>Voyara <em>Travels</em></span>
+        </a>
+        <p>Discover beyond boundaries with premium, personalised travel experiences across the world.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Twitter">x</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="calculator.html">Trip Calculator</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>123 Wanderlust Avenue,<br />Suite 400, New York, NY 10001</p>
+        <p>📞 +1 (555) 012-3456</p>
+        <p>✉️ hello@voyaratravels.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Voyara Travels. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <a href="https://wa.me/15550123456" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
